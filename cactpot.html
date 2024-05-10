@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projet final</title>
+		<script src="soluce.js"></script>
+		<link href="soluce.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body onload="init_page();">
+		<div id="page">
+			<div id="cacpot">
+				<table id="contenu">
+					<tr id="first-line"><th class="left-arrow" id="d1">&#x2198;</th><th id="c1">&darr;</th><th id="c2">&darr;</th><th id="c3">&darr;</th><th id="d2">&#8601;</th></tr>
+					<tr><th id="l1" class="left-arrow">&rarr;</th><td id="11"></td><td id="12"></td><td id="13"></td></tr>
+					<tr><th id="l2" class="left-arrow">&rarr;</th><td id="21"></td><td id="22"></td><td id="23"></td></tr>
+					<tr><th id="l3" class="left-arrow">&rarr;</th><td id="31"></td><td id="32"></td><td id="33"></td></tr>
+				</table>
+			</div>
+			<div id="coups-restants">Nombre de coups restants : 3</div>
+			<div class="cacher" id="resultat" style="display: none;">
+				<h2>Résultat</h2>
+			</div>
+			<div class="cacher" id="rejouer" style="display: none;">
+				<h2>Rejouer</h2>
+				<button id="bouton-rejouer">Cliquer pour rejouer</button>
+			</div>
+			<div id="nb-points"></div>
+		</div>
+	</body>
+</html>
